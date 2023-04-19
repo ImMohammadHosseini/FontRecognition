@@ -5,9 +5,9 @@
 import keras
 from keras import layers
 
-def AutoEncoder (max_len, words_num):
+def AutoEncoder (input_shape):
     model = keras.Sequential([
-        layers.Input(shape = (32,128,1)),
+        layers.Input(shape = input_shape),
         layers.Conv2D(64, kernel_size=(5, 5), activation='relu', padding="same"),
         layers.MaxPooling2D(pool_size=(2, 2)),
         layers.BatchNormalization(),
