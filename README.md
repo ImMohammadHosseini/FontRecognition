@@ -1,3 +1,3 @@
 <p align="center">
-  <b>DeepFont</b> :rocket:
+  <strong>DeepFont</strong> :rocket:
 </p> 
